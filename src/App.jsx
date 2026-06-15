@@ -2,8 +2,7 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div>
-      <h1>project started</h1>
+    <div className="h-screen bg-black flex items-center justify-center">
       
     </div>
   )

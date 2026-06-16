@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from "framer-motion";
 
 const products = [
   {
@@ -77,7 +78,10 @@ const ChocolateShowcase = () => {
         <div className="max-w-6xl mx-auto">
        <div className="grid grid-cols-4 gap-6">
      {products.map((item) => (
-       <div key={item.id} >
+       
+      <motion.div
+      
+>
 
 <div className="overflow-hidden  rounded-xl border border-[#d4af37]/40 transition-all duration-500 hover:border-[#d4af37] hover:shadow-[0_0_35px_rgba(212,175,55,0.7)]">
       <img
@@ -100,7 +104,7 @@ const ChocolateShowcase = () => {
     </div>
 
 
-    </div>
+   </motion.div>
   ))}
 </div>
 </div>     

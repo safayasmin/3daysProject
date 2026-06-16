@@ -38,6 +38,40 @@ const ChocolateCollage = () => {
           Premium Collection
         </p>
       </div>
+     
+      
+      <div
+        className="relative w-[210px] h-[300px]"
+        style={{
+          transformStyle: "preserve-3d",
+          animation: "rotate 25s linear infinite",
+        }}
+      >
+        {images.map((img, index) => (
+          <span
+            key={index}
+            className="absolute inset-0"
+            style={{
+              transformStyle: "preserve-3d",
+              transform: `rotateY(${index * (360 / images.length)}deg) translateZ(550px)`
+            }}
+          >
+            <img
+              src={img}
+              alt=""
+              className="
+               w-full h-full object-cover
+               rounded-[40px]
+               border border-[#d4af37]/40
+               shadow-[0_0_20px_rgba(212,175,55,0.15)]
+               transition-all duration-500
+               hover:scale-110
+               hover:border-[#d4af37]
+               hover:shadow-[0_0_35px_rgba(212,175,55,0.45)]"
+            />
+          </span>
+        ))}
+      </div>
 
 
 

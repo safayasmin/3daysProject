@@ -23,9 +23,26 @@ const images = [
 
 const ChocolateCollage = () => {
   return (
-    <div>
+    <section className="relative w-full h-screen pt-24 bg-gradient-to-r from-[#050505] via-[#0d0906] to-[#17110c] flex items-center justify-center overflow-hidden">
+
       
-    </div>
+      <div className="absolute text-center z-50">
+        <h1
+          className="text-6xl md:text-7xl font-bold text-white tracking-[10px]"
+          style={{ fontFamily: "Playfair Display, serif" }}
+        >
+          CHOCOLATE
+        </h1>
+
+        <p className="mt-4 text-[#c9a66b] tracking-[8px] uppercase">
+          Premium Collection
+        </p>
+      </div>
+
+
+
+
+      </section>
   )
 }
 

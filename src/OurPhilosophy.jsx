@@ -27,6 +27,13 @@ const OurPhilosophy = () => {
             </br>the essence of a midnight bloom.
             </p>
 
+             <div>
+                <img
+               src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUfQI5IvdPLtmFNiBCwkQrTR8lk95vVTFnNEMKEjbLhOEeXAafNpC9iWasOYlD6EkYd-D1OFH7a-ea98t2rIMhQmqR3ryTpHXgcmPt1E3L7plMtoPAa1MsBXTlL2M4Kw3MLvnGXTdxpjYHfEYbvwbiBXQzY7hAC1x789o6mmAzwfrCZSrZPze1jNweL4gYP2DLt7NzwYsRkJbaINuhEOwD6D-oe5SrcU4r7pH8KyMekueR9QkyS9E9D4q_-YXWOI9BBUOn-BOmz-U"
+               /> 
+        
+            </div> 
+
            
     </div>
   )

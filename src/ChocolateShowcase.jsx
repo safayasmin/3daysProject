@@ -1,5 +1,5 @@
 import React from 'react'
-import { motion } from "framer-motion";
+
 
 
 const products = [
@@ -9,12 +9,12 @@ const products = [
     price: 499,
     img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCMqm4lqD7mEvWs2SbGiq24uT4nDCg4yqB6bwjPjrtmIcy_rUmANJeMKmZxZXt6yaFp0_Xv9keysSV8LrlTLU2qN326pNcYDyJtTdh5EsZkc0VrgHA9Wk1EVr_qW4fueT0DKjo9RXJBTIDeLk4GDhTUD6_8u-nDaGXMjAR551ShbE1mqFmk1OROICyeS7gKzIAirL4pWutZaZOmZYbPzqX4KkcTAAgQRB8frDT13VaGIIj2cRUNjEfyedRhDWryKIO-55-9fzjw8iw"
   },
-  // {
-  //   id: 2,
-  //   title: "Velvet Cocoa",
-  //   price: 599,
-  //   img: "https://lh3.googleusercontent.com/aida/AP1WRLs3MQUdqBn5fva85hTVrMwPghlHUsq-PC9IEjT7jc_UBwqw7kDdZ4DfYA_eJZZV9kQKq3wcuA6pG_aXV-KsQcuD_8BezzjGFO7C7geZOWMACYmCKn1lBVB4QNq95ZZ-PPaH61YpMk82v79210xboObzQlCyls9vBQfX6rYvNH_tdHGyRu1tEqq-A_vwm8lBOZRPQTK3RAIbTxoRNpdzuqlADzL82XKOBG_zjoMekIJyD6t3KFkAmF7ZRdk"
-  // },
+  {
+    id: 2,
+    title: "Velvet Cocoa",
+    price: 599,
+    img: "https://lh3.googleusercontent.com/aida/AP1WRLs3MQUdqBn5fva85hTVrMwPghlHUsq-PC9IEjT7jc_UBwqw7kDdZ4DfYA_eJZZV9kQKq3wcuA6pG_aXV-KsQcuD_8BezzjGFO7C7geZOWMACYmCKn1lBVB4QNq95ZZ-PPaH61YpMk82v79210xboObzQlCyls9vBQfX6rYvNH_tdHGyRu1tEqq-A_vwm8lBOZRPQTK3RAIbTxoRNpdzuqlADzL82XKOBG_zjoMekIJyD6t3KFkAmF7ZRdk"
+  },
   // {
   //   id: 3,
   //   title: "Golden Bite",
@@ -28,14 +28,12 @@ const products = [
   //   img: "https://lh3.googleusercontent.com/aida/AP1WRLuOQP7QAsh6I8ObfWnQJc-ozokTpvoNTlqKMYikx8dST1gSDpwE97rmTie2WiOPo_tWbNDWBNmmE_Bx7endWE0EoDwx9FI8lUNL686v7zgtiOsQjSrvG_qW_nQ03b8IcQcN94LGhXFGTK7zqNEBfioUEFbAIGSO-_yg1GUSqwqNkI7Ez_aufFldN9z5bx3H1dBoqxSjdEN0oFDzpTLaNQrE-4RTvqtqLMJbxKvwxceSg3uYUM778tIHn14"
   // },
 
-
-
-  {
-  id: 2,
-  title: "Velvet Cocoa",
-  price: 599,
-  img: "https://images.pexels.com/photos/302680/pexels-photo-302680.jpeg"
-},
+//   {
+//   id: 2,
+//   title: "Velvet Cocoa",
+//   price: 599,
+//   img: "https://images.pexels.com/photos/302680/pexels-photo-302680.jpeg"
+// },
 {
   id: 3,
   title: "Golden Bite",
@@ -77,6 +75,10 @@ const products = [
 const ChocolateShowcase = () => {
   return (
     <div>
+         <section className="min-h-screen bg-[#131313] py-20 px-6">
+
+
+         </section>
       
     </div>
   )

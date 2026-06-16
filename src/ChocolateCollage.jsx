@@ -2,11 +2,11 @@ import React from 'react'
 const images = [
   "https://lh3.googleusercontent.com/aida-public/AB6AXuCMqm4lqD7mEvWs2SbGiq24uT4nDCg4yqB6bwjPjrtmIcy_rUmANJeMKmZxZXt6yaFp0_Xv9keysSV8LrlTLU2qN326pNcYDyJtTdh5EsZkc0VrgHA9Wk1EVr_qW4fueT0DKjo9RXJBTIDeLk4GDhTUD6_8u-nDaGXMjAR551ShbE1mqFmk1OROICyeS7gKzIAirL4pWutZaZOmZYbPzqX4KkcTAAgQRB8frDT13VaGIIj2cRUNjEfyedRhDWryKIO-55-9fzjw8iw",
 
-  "https://lh3.googleusercontent.com/aida/AP1WRLs3MQUdqBn5fva85hTVrMwPghlHUsq-PC9IEjT7jc_UBwqw7kDdZ4DfYA_eJZZV9kQKq3wcuA6pG_aXV-KsQcuD_8BezzjGFO7C7geZOWMACYmCKn1lBVB4QNq95ZZ-PPaH61YpMk82v79210xboObzQlCyls9vBQfX6rYvNH_tdHGyRu1tEqq-A_vwm8lBOZRPQTK3RAIbTxoRNpdzuqlADzL82XKOBG_zjoMekIJyD6t3KFkAmF7ZRdk",
+  "https://images.pexels.com/photos/302680/pexels-photo-302680.jpeg",
 
   "https://lh3.googleusercontent.com/aida/AP1WRLsM7a1hFpiE1bIgOdwcEgmjAf8WLKIrgYl70C2Mv2MIMzxguY0hyG1DPiNZ3wDYIhHMWmgjUJnp-CUupEeunDVu0AUZjSmvqGFCgG71mn7iS7rjJj4we9_1nw6iG1-QOQ2v1VyfUoDTvqZoHXdTy_8SuPMvSRyDkLAEQc6i3oAGTa-rYilYlYUwrtAgRHcxYfSWXhG_-8swhOngkRz9nx45kCgPbQzZFhAjzT3lHzeCOlbDOkKgTp5l-A",
 
-  "https://lh3.googleusercontent.com/aida/AP1WRLuOQP7QAsh6I8ObfWnQJc-ozokTpvoNTlqKMYikx8dST1gSDpwE97rmTie2WiOPo_tWbNDWBNmmE_Bx7endWE0EoDwx9FI8lUNL686v7zgtiOsQjSrvG_qW_nQ03b8IcQcN94LGhXFGTK7zqNEBfioUEFbAIGSO-_yg1GUSqwqNkI7Ez_aufFldN9z5bx3H1dBoqxSjdEN0oFDzpTLaNQrE-4RTvqtqLMJbxKvwxceSg3uYUM778tIHn14",
+  "https://images.pexels.com/photos/65882/chocolate-dark-coffee-confiserie-65882.jpeg",
 
   "https://lh3.googleusercontent.com/aida-public/AB6AXuC9n56ASdklU7Q_jLW4y6hyXNbOSnBV7GIpoPrD2HW5mw83hxVVrRu76XBpOurzNNfClN_-dm8WzP8v_uE8xas8DpAiWwxPWrF9M6QXwUKUL0KBmWZJx7DY0eKSSBs8oGB7EKpYvb3cj5KccW17TlXTZZ3jtK1dqoeTvzKK0W6cdTyaz4u-SOtd_Pg2ZrAf3ppUXnNiN3XYUtnJJCewf272csYvT8y62TEylYCdgZxYW2X93el3AibMjj3lWEtSS64IAJvncn--2PI",
 
@@ -64,18 +64,24 @@ const ChocolateCollage = () => {
                rounded-[40px]
                border border-[#d4af37]/40
                shadow-[0_0_20px_rgba(212,175,55,0.15)]
-               transition-all duration-500
-               hover:scale-110
                hover:border-[#d4af37]
                hover:shadow-[0_0_35px_rgba(212,175,55,0.45)]"
             />
           </span>
         ))}
       </div>
-
-
-
-
+        <style>
+        {`
+          @keyframes rotate {
+            from {
+              transform: perspective(1400px) rotateY(0deg);
+            }
+            to {
+              transform: perspective(1400px) rotateY(360deg);
+            }
+          }
+        `}
+      </style>
       </section>
   )
 }

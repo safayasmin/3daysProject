@@ -73,10 +73,10 @@ const products = [
 const ChocolateShowcase = () => {
   return (
     <div>
-         <section className="min-h-screen bg-[#131313] py-20 px-6">
+        <section className="min-h-screen bg-[#131313] py-20 px-6">
         <div className="max-w-6xl mx-auto">
        <div className="grid grid-cols-4 gap-6">
-        {products.map((item) => (
+     {products.map((item) => (
        <div key={item.id} >
 
       <img
@@ -87,6 +87,8 @@ const ChocolateShowcase = () => {
           object-cover
           border border-[#d4af37]/40
           rounded-xl
+          transition-transform duration-500
+          hover:scale-110
         "
       />
       

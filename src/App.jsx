@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import ChocolateCollage from './ChocolateCollage'
 import ChocolateShowcase from './ChocolateShowcase'
 import OurPhilosophy from './OurPhilosophy'
+import Footer from './Footer'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <ChocolateCollage />
       <ChocolateShowcase />
       <OurPhilosophy />
+      <Footer />
     </div>
   )
 }

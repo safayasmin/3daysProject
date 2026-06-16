@@ -21,10 +21,9 @@ const Navbar = () => {
             placeholder='Search Chocolate...'
             />
 
-
 <div className='flex items-center gap-5'>
      <FiHeart className='text-xl' />
-     <button className='text-black  bg-[#f5e6d3] flex items-center py-2 px-4 rounded-full'>
+     <button className='text-black bg-[#f5e6d3] flex items-center py-2 px-4 rounded-full'>
         Add to Cart
         <FiShoppingCart />
      </button>

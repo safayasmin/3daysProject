@@ -88,14 +88,19 @@ const ChocolateShowcase = () => {
           rounded-xl
         "
       />
+      
+
+     <h3 className="text-white mt-2">{item.title}</h3>
+    <p className="text-[#d4af37]">₹{item.price}</p>
+
 
 
     </div>
   ))}
 </div>
       
-        </section>
-    </div>
+</section>
+</div>
   )
 }
 

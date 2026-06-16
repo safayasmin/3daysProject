@@ -16,9 +16,18 @@ const OurPhilosophy = () => {
           </h2>
 
           <div className='w-24 h-[1.5px] bg-[#d4af37] my-8'/>
-          
-        
-      
+            
+            <p className='text-gray-300 text-lg'>
+                 True chocolate artistry requires patience and a setting
+            free from the <br></br> distractions of light. At BloomCraft,
+            our master chocolatiers work through <br></br>the night,
+            hand-painting each truffle with 24k gold and rare
+            botanical <br></br>extracts. This nocturnal process ensures
+            that every piece captures <br>
+            </br>the essence of a midnight bloom.
+            </p>
+
+           
     </div>
   )
 }

@@ -89,10 +89,10 @@ const ChocolateShowcase = () => {
         "
       />
       
-
+    <div  className='flex justify-between'>
      <h3 className="text-white mt-2">{item.title}</h3>
-    <p className="text-[#d4af37]">₹{item.price}</p>
-
+     <p className="text-[#d4af37]">₹{item.price}</p>
+    </div>
 
 
     </div>

@@ -79,6 +79,7 @@ const ChocolateShowcase = () => {
      {products.map((item) => (
        <div key={item.id} >
 
+<div className="overflow-hidden  rounded-xl border border-[#d4af37]/40 transition-all duration-500 hover:border-[#d4af37] hover:shadow-[0_0_35px_rgba(212,175,55,0.7)]">
       <img
         src={item.img}
         alt={item.title}
@@ -91,6 +92,7 @@ const ChocolateShowcase = () => {
           hover:scale-110
         "
       />
+</div>
       
     <div  className='flex justify-between'>
      <h3 className="text-white mt-2">{item.title}</h3>

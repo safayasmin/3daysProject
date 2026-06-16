@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import ChocolateCollage from './ChocolateCollage'
 import ChocolateShowcase from './ChocolateShowcase'
+import OurPhilosophy from './OurPhilosophy'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <ChocolateCollage />
       <ChocolateShowcase />
+      <OurPhilosophy />
     </div>
   )
 }

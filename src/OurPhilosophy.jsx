@@ -16,9 +16,9 @@ const OurPhilosophy = () => {
             </span>
           </h2>
 
-          <div className='w-24 h-[1.5px] bg-[#d4af37]'/>
+          <div className='mt-10 w-24 h-[1.5px] bg-[#d4af37]'/>
             
-            <p className='text-gray-300 text-lg'>
+            <p className='mt-10 text-gray-300 text-lg'>
                  True chocolate artistry requires patience and a setting
             free from the <br></br> distractions of light. At BloomCraft,
             our master chocolatiers work through <br></br>the night,

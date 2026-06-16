@@ -74,24 +74,30 @@ const ChocolateShowcase = () => {
   return (
     <div>
          <section className="min-h-screen bg-[#131313] py-20 px-6">
-          <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-4 gap-6">
+       <div className="grid grid-cols-4 gap-6">
+        {products.map((item) => (
+      <div key={item.id} className="group">
 
-            <div className="grid grid-cols-4 gap-6">
-  {products.map((item) => (
-    <div key={item.id}>
-      <img src={item.img} alt={item.title} />
+      <img
+        src={item.img}
+        alt={item.title}
+        className="
+          w-full h-[300px]
+          object-cover
+          border border-[#d4af37]/40
+          rounded-xl
+        "
+      />
+
+
     </div>
   ))}
 </div>
-
-          
-         </div>
-         </div>
-         </section>
       
+        </section>
     </div>
   )
 }
 
 export default ChocolateShowcase
+

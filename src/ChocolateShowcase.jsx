@@ -111,7 +111,6 @@ const ChocolateShowcase = () => {
      <p className="text-[#d4af37]">₹{item.price}</p>
     </div>
 
-
    </motion.div>
   ))}
 </div>

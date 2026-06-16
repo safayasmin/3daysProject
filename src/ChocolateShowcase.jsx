@@ -77,10 +77,18 @@ const ChocolateShowcase = () => {
         <section className="min-h-screen bg-[#131313] py-20 px-6">
         <div className="max-w-6xl mx-auto">
        <div className="grid grid-cols-4 gap-6">
-     {products.map((item) => (
+     {products.map((item,index) => (
        
       <motion.div
-      
+      key={item.id}
+      className="group"
+      initial={{opacity:0 ,y:200}}
+      whileInView={{opacity:1,y:0}}
+      viewport={{once:true}}
+      transition={{
+        duration:0.8,
+        delay:index*0.15,
+      }}
 >
 
 <div className="overflow-hidden  rounded-xl border border-[#d4af37]/40 transition-all duration-500 hover:border-[#d4af37] hover:shadow-[0_0_35px_rgba(212,175,55,0.7)]">
